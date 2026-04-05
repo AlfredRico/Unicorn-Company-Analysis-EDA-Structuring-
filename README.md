@@ -1,9 +1,5 @@
 # Unicorn Companies — EDA & Data Structuring
 
-View full project walkthrough:
-https://alfredrico.github.io/Unicorn-Company-Analysis-EDA-Structuring/
-
----
 
 ## Overview
 
@@ -53,6 +49,4 @@ https://www.kaggle.com/datasets/mysarahmadbhat/unicorn-companies
 ## Ecosystem
 
 * Portfolio webpage → Project hub and navigation: https://alfredrico.github.io/
-* Project page (HTML) → walkthrough and interpretation
-* Notebook → full analysis
-* GitHub → reproducibility
+* GitHub → Project repositories featuring UV management for reproducibility: https://github.com/AlfredRico
