@@ -18,12 +18,20 @@ This project analyzes unicorn companies (valued at $1B+) with a focus on structu
 
 ## Reproducibility
 
-Run locally using UV:
+## Run Locally (UV)
 
 ```bash
+git clone https://github.com/AlfredRico/Unicorn-Company-Analysis-EDA-Structuring.git
+cd Unicorn-Company-Analysis-EDA-Structuring
+
 uv sync
 uv run jupyter lab
 ```
+
+Open `notebooks/unicorn_analysis.ipynb` and run the main analysis notebook to view the project.
+
+The dataset is included in the `data/` folder.
+
 
 ---
 
