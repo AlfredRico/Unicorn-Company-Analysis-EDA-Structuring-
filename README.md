@@ -18,22 +18,56 @@ This project analyzes unicorn companies (valued at $1B+) with a focus on structu
 
 ## Reproducibility
 
-### Run Locally (UV)
+This project uses **UV** for fast, deterministic environment management.
+
+### 🔧 Prerequisites
+
+Install UV (official guide):  
+https://docs.astral.sh/uv/getting-started/
+
+---
+
+### ▶️ Run Locally (Step-by-Step)
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/AlfredRico/Unicorn-Company-Analysis-EDA-Structuring.git
 cd Unicorn-Company-Analysis-EDA-Structuring
 
+# 2. Sync environment (installs Python + dependencies)
 uv sync
+
+# 3. Launch Jupyter Lab
 uv run jupyter lab
 ```
 
-Open `notebooks/unicorn_analysis.ipynb` and run the main analysis notebook to view the project.
+---
 
-The dataset is included in the `data/` folder.
+### 📂 Open the Project
 
+Once Jupyter Lab opens in your browser:
+
+1. Navigate to the project root directory  
+2. Open the notebook:
+
+   ```
+   unicorn_analysis.ipynb
+   ```
+
+3. Run all cells from top to bottom  
 
 ---
+
+### 🧠 Notes
+
+- The environment is fully defined by:
+  - `pyproject.toml`
+  - `uv.lock`
+- No manual package installation is required  
+- Results are fully reproducible across systems  
+
+---
+
 
 ## Project Structure
 
